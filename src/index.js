@@ -8,7 +8,7 @@ import Store from "./store/index.js"
 import axios from 'axios';
 
 // axios.defaults.baseURL= 'http://localhost:3001';
-axios.defaults.baseURL= 'https://countriesback-production.up.railway.app/countries';
+axios.defaults.baseURL= 'https://countriesback-production.up.railway.app';
 
 ReactDOM.render(
   <Provider store={Store}>
