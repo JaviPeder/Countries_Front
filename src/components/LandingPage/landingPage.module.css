@@ -75,7 +75,7 @@ body {
     content: 'Time to travel';
     font-size: 18px;
     background-color: #e8e8e8;
-    
+    text-decoration: none;
     padding: 23px 72px;
     border-radius: 20px;
     transition: 0.3s;
