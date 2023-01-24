@@ -9,7 +9,7 @@ export default function landingPage() {
         <div className={s.container}>
             
             <div><p>Welcome to World-Scanner!!!</p></div>
-            <Link to='/home'>
+            <Link className={s.link} to='/home'>
                 <button className={s.button}></button>
             </Link>
         </div>
