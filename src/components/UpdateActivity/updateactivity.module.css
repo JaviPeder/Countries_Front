@@ -46,10 +46,6 @@
     background-image: url("../../img/fondoactividades4.png");
     /* background-attachment: fixed; */
 background-repeat: no-repeat;
-
-    /* font-family: 'Playfair Display', serif; */
-    /* font-style: bold; */
-
 }
 .cajaform{
     align-items: flex-end;
@@ -105,6 +101,7 @@ background-repeat: no-repeat;
     box-shadow: 2px 2px rgba(130, 130, 130, 0.68);
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 .btnactivities:hover{
     background-color: #9d9b9b;

@@ -163,7 +163,7 @@ export default function UpdateActivity() {
             <div className={s.barra}>
                 <p className={s.app}>World-Scanner</p>
                 <img className={s.img} src={img} alt="" />
-                <h1 className={s.titulo}>Create your activity in one or more countries</h1>
+                <h1 className={s.titulo}> Update your activity </h1>
 
                 <Link className={s.link} to='/activities'><button className={s.btnactivities}>Activities</button></Link>
                 <Link className={s.link} to='/home'><button className={s.btnhome}>{iconEarth}  Back to home</button></Link>
