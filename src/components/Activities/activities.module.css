@@ -126,9 +126,7 @@ margin-top: -15px;
     transition: 0.3s;
     border: solid 1px white;
 }
-.link{
-    text-decoration: none;
-}
+
 /* .btn_activity {
     color: #4895D9;
     font-family: 'Roboto Slab', serif;
@@ -171,6 +169,9 @@ margin-top: -15px;
     transition: 0.3s;
     border: solid 1px white;
 }
+.link{
+    text-decoration: none;
+}
 .allConteiners {
    
     display: flex;
@@ -183,6 +184,9 @@ margin-top: -15px;
     transition: 1s;
     align-items: center;
     
+}
+.link{
+    text-decoration: none;
 }
 summary{
     border-radius: 15px;
