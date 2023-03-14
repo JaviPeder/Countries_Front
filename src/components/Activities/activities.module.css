@@ -259,6 +259,7 @@ h3 {
     padding: none;
     transition: 0.3s;
     border-radius: 20px;
+    justify-content: center;
 } 
 
 .btn_delete:hover{
