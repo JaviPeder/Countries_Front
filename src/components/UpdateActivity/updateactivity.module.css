@@ -67,18 +67,22 @@ background-repeat: no-repeat;
 
 }
 
+
 .btnhome {
     color: #4895D9;
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
     border: none;
-    display: inline flex;
+    display: flex;
     height: 40px;
     width: 180PX;
     font-size: 18px;
     margin: 30px;
     box-shadow: 2px 2px rgba(130, 130, 130, 0.68);
     border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
     /* margin-top: -10px; */
 }
 .btnhome:hover{
@@ -92,13 +96,15 @@ background-repeat: no-repeat;
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
     border: none;
-    display: inline flex;
+    display: flex;
     height: 40px;
     width: 130PX;
     font-size: 18px;
     margin-left: -150px;
     border-radius: 5px;
     box-shadow: 2px 2px rgba(130, 130, 130, 0.68);
+    align-items: center;
+    justify-content: center;
 }
 .btnactivities:hover{
     background-color: #9d9b9b;
@@ -303,6 +309,9 @@ width: 20px;
     display: flex;
     align-items: center;
     margin: 5px;
+}
+.link{
+    text-decoration: none;
 }
 /* .image{
     display: flex;
