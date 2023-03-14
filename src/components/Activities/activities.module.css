@@ -75,34 +75,12 @@ font-family: 'Cinzel', serif;}
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /* -ms-progress-appearance: ring; */
-    /* background-color: #3BB2BF; */
 }
 .difficulty progress{
 margin-top: -15px;
 }
 
 
-/* .btn_home {
-    text-decoration: none;
-    color: #4895D9;
-    font-family: 'Roboto Slab', serif;
-    font-weight: bold;
-    border: none;
-    display: inline flex;
-    height: 40px;
-    width: 180PX;
-    font-size: 18px;
-    margin: 30px;
-    border-radius: 5px;
-
-}
-
-.btn_home:hover {
-    background-color: #9d9b9b;
-    color: white;
-    transition: 0, 5s;
-} */
 .btn_home {
     color: #4895D9;
     font-family: 'Roboto Slab', serif;
@@ -118,7 +96,6 @@ margin-top: -15px;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    /* margin-top: -10px; */
 }
 .btn_home:hover{
     background-color: #9d9b9b;
@@ -127,25 +104,6 @@ margin-top: -15px;
     border: solid 1px white;
 }
 
-/* .btn_activity {
-    color: #4895D9;
-    font-family: 'Roboto Slab', serif;
-    font-weight: bold;
-    border: none;
-    display: inline flex;
-    height: 40px;
-    width: 300PX;
-    font-size: 18px;
-    margin: 10px;
-    margin-left: 250px;
-    border-radius: 5px;
-}
-
-.btn_activity:hover {
-    background-color: #9d9b9b;
-    color: white;
-    transition: 0.3s;
-} */
 .btn_activity {
     color: #4895D9;
     font-family: 'Roboto Slab', serif;
@@ -162,7 +120,6 @@ margin-top: -15px;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    /* margin-top: -10px; */
 }
 .btn_activity:hover{
     background-color: #9d9b9b;
