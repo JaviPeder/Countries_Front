@@ -81,17 +81,7 @@ export default function AllCountries() {
           <button disabled={currentPage === maxPag? true: false} className={s.btn} onClick={() => lastPage()}>{'>>'}</button>
         </div>
         {
-          // console.log(currentCountries)
-          // linea 80 Porque si hago el paginado y luego busco un pais no lo muestra
-          // countries.length === 1 ? (
-          //   <Country
-          //     id={countries[0].id}
-          //     flag_img={countries[0].flag_img}
-          //     name={countries[0].name}
-          //     region={countries[0].region}
-          //     key={countries[0].id}
-          //     activities={countries[0].activities}
-          //   />) :
+          
           
             (currentCountries.length >0? typeof currentCountries === 'object' ? currentCountries.map((e) => (
               <Country

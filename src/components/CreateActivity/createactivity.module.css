@@ -17,7 +17,8 @@
     height: 50px;
     margin-left: -60px;
 }
-.app{text-decoration: none;
+.app{
+    text-decoration: none;
     display: flex;
     width: 380px;
     color: white;

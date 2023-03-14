@@ -103,7 +103,9 @@ margin-top: -15px;
     color: white;
     transition: 0, 5s;
 }
-
+.link{
+    text-decoration: none;
+}
 .btn_activity {
     /* text-decoration: none; */
     color: #4895D9;

@@ -46,8 +46,8 @@ export default function Activity() {
                 <h2 className={style.title}>Active your life!!!</h2>
                 </div>
                 
-                <Link to="/activities/createActivity" ><button className={style.btn_activity}>Create your activity !!!</button></Link>
-                <Link to="/home"><button className={style.btn_home}>{iconEarth}  Back to home</button></Link>
+                <Link className={style.link} to="/activities/createActivity" ><button className={style.btn_activity}>Create your activity !!!</button></Link>
+                <Link className={style.link} to="/home"><button className={style.btn_home}>{iconEarth}  Back to home</button></Link>
             </div>
 
             <div className={style.allConteiners}>
