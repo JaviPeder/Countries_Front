@@ -28,7 +28,7 @@ export default function CountryId(){
                      <p>World-Scanner</p>
                     <img className={s.img} src={img} alt="" />
                    </div>
-                    <Link className='' to="/home" ><button className={s.btnhome}>Back to home</button></Link>
+                    <Link className={s.link} to="/home" ><button className={s.btnhome}>Back to home</button></Link>
                 </div>
            
                 <div className=''>
